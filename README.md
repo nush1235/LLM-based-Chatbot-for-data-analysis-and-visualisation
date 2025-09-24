@@ -8,3 +8,6 @@ The objectives are to:
 4.	Analyse the trade-offs between model size, performance, cost, and latency.
 5.	Identify the strengths and weaknesses of the current generation of small and medium sized LLMs for this specific task.
 
+# Scope and Delimitations
+This study focuses on structured, temporal financial data in the format of .xlsx files, specifically with regards to historical daily stock prices. Data extraction, aggregation, filtering conditionally, computation, and basic visualization comprise the limited set of analytical activities for this study. This study will not involve real-time streaming of data, forecasting modelling, or complex financial modelling practices. A user study will be conducted with a small target population for the purpose of gathering qualitative observations rather than statistically significant demographic details. These short-listed LLMs represent a sampling but not the complete set of existing models.
+
