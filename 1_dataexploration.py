@@ -9,9 +9,7 @@ Original file is located at
 
 import pandas as pd
 
-# ## 2. Load and Combine Datasets from Excel Sheets (Corrected Code)
-
-# The path to your single Excel file
+# ## 2. Load and Combine Datasets from Excel Sheets 
 file_path = 'stocks_historical.xlsx'
 
 # The names of the sheets you want to read from the file
@@ -24,7 +22,6 @@ df_list = []
 try:
     for sheet in sheet_names:
         # Read a specific sheet from the Excel file
-        # We still include skiprows=2 to handle the messy headers mentioned in your dissertation
         temp_df = pd.read_excel(
             file_path,
             sheet_name=sheet,
